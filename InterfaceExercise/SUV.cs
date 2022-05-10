@@ -4,7 +4,15 @@ using System.Text;
 
 namespace InterfaceExercise
 {
-    internal class SUV
+    public class SUV : IVehicle, ICompany
     {
+        public string CargoHoldSize { get; set; }
+        public string HasThirdRow { get; set; }
+        public string Logo { get; set; }
+        public string Name { get; set; }
+        public int HasWheels { get; set; }
+        public string Engine { get; set; }
+        public string HornSound { get; set; }
+        public int NumberOfWindows { get; set; }
     }
 }

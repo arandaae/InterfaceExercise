@@ -4,7 +4,12 @@ using System.Text;
 
 namespace InterfaceExercise
 {
-    internal interface IVehicle
+    public interface IVehicle : ICompany
     {
+        public int HasWheels { get; set; }
+        public string Engine { get; set; }
+        public string HornSound { get; set; }
+        public int NumberOfWindows { get; set; }
+
     }
 }
